@@ -7,8 +7,8 @@ addpath(genpath('./'));
 ds = {'Caltech101-7'};
 dsPath = '.\datasets\';
 metric = {'ACC','nmi','Purity','Fscore','Precision','Recall','AR','Entropy'};
-anchor_rate=[1 2 3 5 7];
-d_rate = [1 2 3 5 7];
+anchor_rate=[1 2 3 4 5 6 7];
+d_rate = [1 2 3 4 5 6 7];
 
 for dsi =1:1:1
     dataName = ds{dsi}; disp(dataName);
